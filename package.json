@@ -1,0 +1,15 @@
+{
+  "name": "fetch-gh-titles",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Helper node script to fetch GitHub issue/pr/discussion titles",
+  "main": "fetch-gh-titles.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/graphql": "^8.1.1",
+    "fs": "^0.0.1-security"
+  }
+}
