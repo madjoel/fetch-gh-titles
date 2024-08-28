@@ -4,7 +4,7 @@ import fs from 'fs';
 
 
 if (process.argv.length < 5) {
-  console.log('Usage: node ' + process.argv[1] + ' GITHUB_REPO_OWNER GITHUB_REPO_NAME GITHUB_KEY_FILE');
+  console.log('Usage: node ' + process.argv[1] + ' <user-or-organisation> <repo> <personal-access-token-file>');
   process.exit(1);
 }
 
